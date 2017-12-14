@@ -1,0 +1,43 @@
+{
+  "compileOnSave": true,
+
+  "compilerOptions":
+  {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "outDir": "../js",
+    "rootDir": ".",
+    "allowUnreachableCode":  true, 
+
+    "target": "es5",
+    //"module": "amd", // define, export, like playground
+    //"module": "commonjs", // require
+    //"module": "es2015", // just like typescript
+    // "module": "system", // System.register
+     "module": "umd", // factory, require, exports
+    //"module": "esnext", // like typescript
+    // "module": "none", // Object.defineProperty, require
+    // "module": "commonjs",
+
+    "lib":
+    [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ]
+  },
+  "exclude":
+  [
+    "node_modules",
+    "wwwroot"
+  ]
+
+  ,"include":
+  [
+    "./**/*"
+  ]
+
+
+}
