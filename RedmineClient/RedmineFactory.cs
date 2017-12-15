@@ -38,7 +38,8 @@ namespace RedmineClient
                  // "http://redmine.cor.local"
                  //"http://redmine.cor-management.ch"
 
-                 "https://servicedesk.cor-management.ch/Servicedesk/"
+                 //"https://servicedesk.cor-management.ch/Servicedesk/"
+                 "http://localhost:3000/"
                 , TestPlotly.SecretManager.GetSecret<string>("RedmineSuperUser")
                 , TestPlotly.SecretManager.GetSecret<string>("RedmineSuperUserPassword")
                 , Redmine.Net.Api.MimeFormat.Xml

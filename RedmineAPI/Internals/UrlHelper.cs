@@ -258,10 +258,13 @@ namespace Redmine.Net.Api.Internals
         /// </summary>
         /// <param name="redmineManager">The redmine manager.</param>
         /// <returns></returns>
-        public static string GetUploadFileUrl(RedmineManager redmineManager)
+        public static string GetUploadFileUrl(RedmineManager redmineManager, string fileName)
         {
+            fileName = System.Web.HttpUtility.UrlEncode(fileName);
+
             return string.Format(FORMAT, redmineManager.Host, RedmineKeys.UPLOADS,
-                redmineManager.MimeFormat.ToString().ToLower());
+                       redmineManager.MimeFormat.ToString().ToLower()
+                   ) + "?filename=" + fileName;
         }
 
         /// <summary>

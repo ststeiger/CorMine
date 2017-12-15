@@ -617,10 +617,13 @@ namespace Redmine.Net.Api
         /// <exception cref="ForbiddenException"></exception>
         /// <exception cref="ConflictException"></exception>
         /// <exception cref="NotAcceptableException"></exception>
-        public Upload UploadFile(byte[] data)
+        public Upload UploadFile(byte[] data, string fileName)
         {
-            var url = UrlHelper.GetUploadFileUrl(this);
-            return WebApiHelper.ExecuteUploadFile(this, url, data, "UploadFile");
+            var url = UrlHelper.GetUploadFileUrl(this, fileName);
+            Upload u = WebApiHelper.ExecuteUploadFile(this, url, data, "UploadFile");
+
+            u.FileName = fileName;
+            return u;
         }
 
         /// <summary>

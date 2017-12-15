@@ -229,12 +229,14 @@ namespace RedmineClient
 
             string fn = @"D:\Stefan.Steiger\Pictures\umm-al-maa-idehan-ubari-sand-sea-libya-1.jpg";
             fn = @"C:\Program Files\Anaconda3\Lib\test\xmltestdata\test.xml";
-
+            fn = "/root/Pictures/DA-NANG-CITY.jpg";
+            
             byte[] documentData = System.IO.File.ReadAllBytes(fn);
 
-
-            Redmine.Net.Api.Types.Upload attachment = redman.UploadFile(documentData);
-            attachment.FileName = "Idehan_Ubari.jpg";
+            // Fixed: https://www.redmine.org/projects/redmine/wiki/Rest_api
+            string fileName = System.IO.Path.GetFileName(fn);
+            Redmine.Net.Api.Types.Upload attachment = redman.UploadFile(documentData, fileName);
+            // attachment.FileName = fileName;
             attachment.Description = "A test file upload";
             attachment.ContentType = "image/jpeg";
             // image/jpeg image/png image/gif image/bmp image/svg+xml image/tiff image/webp application/x-msmetafile
@@ -289,7 +291,7 @@ namespace RedmineClient
 
                     // Uploads = uploads,
                     // Uploads = null,
-                    //Uploads = attachments,
+                    Uploads = attachments,
 
                     FixedVersion = new Redmine.Net.Api.Types.IdentifiableName() { Id = 1 },
                     CustomFields = CustomFields
@@ -300,7 +302,7 @@ namespace RedmineClient
             System.Console.WriteLine(System.Environment.NewLine);
             System.Console.WriteLine(System.Environment.NewLine);
             System.Console.WriteLine(" --- Press any key to continue --- ");
-            System.Console.ReadKey();
+             System.Console.ReadKey();
         } // End Sub Main 
 
 
