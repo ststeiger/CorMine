@@ -83,7 +83,7 @@ namespace RedmineClient
             Redmine.Net.Api.RedmineManager redman = RedmineFactory.CreateInstance();
 
 
-#if true
+#if false
             List<Redmine.Net.Api.Types.Project> projects = redman.GetObjects<Redmine.Net.Api.Types.Project>(100, 0);
             foreach (Redmine.Net.Api.Types.Project thisProject in projects)
             {
@@ -169,6 +169,7 @@ namespace RedmineClient
             //}
 
 
+            /*
             // https://www.redmine.org/boards/2/topics/42476
             // https://github.com/zapadi/redmine-net-api/wiki/Upload-file
             byte[] fileData = System.IO.File.ReadAllBytes(@"D:\stefan.steiger\Downloads\signature.png");
@@ -177,7 +178,7 @@ namespace RedmineClient
             fileToAttach.FileName = "foobar.png";
             fileToAttach.Description = "File uploaded using REST API";
             fileToAttach.ContentType = "image/png";
-
+            */
 
             // List<Redmine.Net.Api.Types.Tracker> ls = redman.GetObjects<Redmine.Net.Api.Types.Tracker>("apitestproject");
             // System.Console.WriteLine(ls);
@@ -207,6 +208,40 @@ namespace RedmineClient
             uploads.Add(fileToAttach);
             */
 
+            List<Redmine.Net.Api.Types.IssueCustomField> CustomFields = 
+                new List<Redmine.Net.Api.Types.IssueCustomField>
+                {
+                        new Redmine.Net.Api.Types.IssueCustomField
+                        {
+                            Id = 2,
+                            // Name="Kundenname",
+
+                            Values = new List<Redmine.Net.Api.Types.CustomFieldValue>
+                            {
+                                new Redmine.Net.Api.Types.CustomFieldValue
+                                {
+                                    Info = "INTERN"
+                                }
+                            }
+                        }
+                };
+
+
+            string fn = @"D:\Stefan.Steiger\Pictures\umm-al-maa-idehan-ubari-sand-sea-libya-1.jpg";
+            fn = @"C:\Program Files\Anaconda3\Lib\test\xmltestdata\test.xml";
+
+            byte[] documentData = System.IO.File.ReadAllBytes(fn);
+
+
+            Redmine.Net.Api.Types.Upload attachment = redman.UploadFile(documentData);
+            attachment.FileName = "Idehan_Ubari.jpg";
+            attachment.Description = "A test file upload";
+            attachment.ContentType = "image/jpeg";
+            // image/jpeg image/png image/gif image/bmp image/svg+xml image/tiff image/webp application/x-msmetafile
+
+            List<Redmine.Net.Api.Types.Upload> attachments = new List<Redmine.Net.Api.Types.Upload>();
+            attachments.Add(attachment);
+            
 
             redman.CreateObject<Redmine.Net.Api.Types.Issue>(
                 new Redmine.Net.Api.Types.Issue()
@@ -214,7 +249,8 @@ namespace RedmineClient
                     // Id = 123,
                     CreatedOn = System.DateTime.Now,
                     Author = null,
-                    Project = Projects.test,
+                    //Project = Projects.test,
+                    Project = new Redmine.Net.Api.Types.IdentifiableName() { Id = 6, Name = "15-Basic-V4" },
                     Subject = "i1iiI am a extemely new test Issue",
                     Description = "I i1iiiiam a extemely new test",
                     // Attachments = attachments,
@@ -251,11 +287,12 @@ namespace RedmineClient
                     Status = IssueStatus.Neu,
                     UpdatedOn = System.DateTime.Now,
 
-                    //Uploads = uploads,
-                    Uploads = null,
+                    // Uploads = uploads,
+                    // Uploads = null,
+                    //Uploads = attachments,
+
                     FixedVersion = new Redmine.Net.Api.Types.IdentifiableName() { Id = 1 },
-                    Id = 123,
-                    CustomFields = null
+                    CustomFields = CustomFields
                 }
             );
             
