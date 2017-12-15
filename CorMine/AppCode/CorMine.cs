@@ -10,7 +10,7 @@ namespace CorMine
         public static System.Collections.Generic.List<Redmine.Net.Api.Types.Issue> GetIssues(string project_id)
         {
             Redmine.Net.Api.RedmineManager redman = RedmineFactory.CreateInstance();
-
+            
             System.Collections.Specialized.NameValueCollection parameters =
                 new System.Collections.Specialized.NameValueCollection {
                     { "status_id", "*" } 
