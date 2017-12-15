@@ -80,5 +80,8 @@
       <Name>RedmineAPI</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

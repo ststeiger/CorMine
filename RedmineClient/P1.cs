@@ -227,9 +227,8 @@ namespace RedmineClient
                 };
 
 
-            string fn = @"D:\Stefan.Steiger\Pictures\umm-al-maa-idehan-ubari-sand-sea-libya-1.jpg";
-            fn = @"C:\Program Files\Anaconda3\Lib\test\xmltestdata\test.xml";
-            fn = "/root/Pictures/DA-NANG-CITY.jpg";
+            string fn = @"D:\username\Pictures\umm-al-maa-idehan-ubari-sand-sea-libya-1.jpg";
+            fn = "/home/<user>/Pictures/DA-NANG-CITY.jpg";
             
             byte[] documentData = System.IO.File.ReadAllBytes(fn);
 
