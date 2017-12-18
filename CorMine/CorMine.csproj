@@ -65,7 +65,6 @@
     <Content Include="Libs\Ionic.Zip.Reduced.dll" />
     <Content Include="Libs\Newtonsoft.Json.dll" />
     <Content Include="Libs\PdfSharp\1_5\PdfSharp.dll" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppCode\CorMine.cs" />
@@ -110,10 +109,13 @@
     <Content Include="ajax\GetIssueTable.ashx" />
     <Content Include="ajax\GetIssueTableHtml.ashx" />
     <Content Include="assets\ts\tsconfig.json" />
+    <Content Include="GetSettings.ashx" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Web.config" />
+    <Content Include="ajax\GetSettings.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
