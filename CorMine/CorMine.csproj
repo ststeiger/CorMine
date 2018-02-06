@@ -67,6 +67,9 @@
     <Content Include="Libs\PdfSharp\1_5\PdfSharp.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ajax\GetFiltered.ashx.cs">
+      <DependentUpon>GetFiltered.ashx</DependentUpon>
+    </Compile>
     <Compile Include="AppCode\CorMine.cs" />
     <Compile Include="ajax\GetIssues.ashx.cs">
       <DependentUpon>GetIssues.ashx</DependentUpon>
@@ -110,6 +113,7 @@
     <Content Include="ajax\GetIssueTableHtml.ashx" />
     <Content Include="assets\ts\tsconfig.json" />
     <Content Include="GetSettings.ashx" />
+    <Content Include="ajax\GetFiltered.ashx" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>

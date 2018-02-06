@@ -15,6 +15,9 @@ namespace CorMine.ajax
 
             System.Collections.Generic.List<Redmine.Net.Api.Types.Tracker> trackers = redman.GetObjects<Redmine.Net.Api.Types.Tracker>();
 
+
+
+
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(trackers, Newtonsoft.Json.Formatting.Indented);
 
             context.Response.ContentEncoding = System.Text.Encoding.UTF8;
