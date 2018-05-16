@@ -1,5 +1,4 @@
 ﻿
-using System.Collections.Generic;
 using System.Windows.Forms;
 
 
@@ -55,7 +54,7 @@ namespace RedmineClient
         {
             Redmine.Net.Api.RedmineManager redman = RedmineFactory.CreateInstance();
 
-            List<Redmine.Net.Api.Types.User> users = redman.GetObjects<Redmine.Net.Api.Types.User>();
+            System.Collections.Generic.List<Redmine.Net.Api.Types.User> users = redman.GetObjects<Redmine.Net.Api.Types.User>();
             System.Console.WriteLine(users);
 
             for (int i = 0; i < users.Count; ++i)
@@ -159,9 +158,9 @@ namespace RedmineClient
 
 
 
-            
 
-            
+
+
             //List<Redmine.Net.Api.Types.Upload> trackers = redman.GetObjects<Redmine.Net.Api.Types.Upload>();
             //foreach (Redmine.Net.Api.Types.Upload thisUpload in trackers)
             //{
@@ -195,28 +194,30 @@ namespace RedmineClient
             //attach.Description = "OMG";
 
 
-            //List<Redmine.Net.Api.Types.Attachment> attachments = new List<Redmine.Net.Api.Types.Attachment>();
+            //System.Collections.Generic.List<Redmine.Net.Api.Types.Attachment> attachments = 
+            // new System.Collections.Generic.List<Redmine.Net.Api.Types.Attachment>();
             //attachments.Add(attach);
 
 
             /*
-            List<Redmine.Net.Api.Types.Tracker> trackers = redman.GetObjects<Redmine.Net.Api.Types.Tracker>();
+            System.Collections.Generic.List<Redmine.Net.Api.Types.Tracker> trackers = redman.GetObjects<Redmine.Net.Api.Types.Tracker>();
             System.Console.WriteLine(trackers);
 
 
-            List<Redmine.Net.Api.Types.Upload> uploads = new List<Redmine.Net.Api.Types.Upload>();
+            System.Collections.Generic.List<Redmine.Net.Api.Types.Upload> uploads = 
+            // new System.Collections.Generic.List<Redmine.Net.Api.Types.Upload>();
             uploads.Add(fileToAttach);
             */
 
-            List<Redmine.Net.Api.Types.IssueCustomField> CustomFields = 
-                new List<Redmine.Net.Api.Types.IssueCustomField>
+            System.Collections.Generic.List<Redmine.Net.Api.Types.IssueCustomField> CustomFields = 
+                new System.Collections.Generic.List<Redmine.Net.Api.Types.IssueCustomField>
                 {
                         new Redmine.Net.Api.Types.IssueCustomField
                         {
                             Id = 2,
                             // Name="Kundenname",
 
-                            Values = new List<Redmine.Net.Api.Types.CustomFieldValue>
+                            Values = new System.Collections.Generic.List<Redmine.Net.Api.Types.CustomFieldValue>
                             {
                                 new Redmine.Net.Api.Types.CustomFieldValue
                                 {

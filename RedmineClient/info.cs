@@ -27,68 +27,68 @@ namespace RedmineClient
 
     public sealed class Projects
     {
-        public static Redmine.Net.Api.Types.IdentifiableName aftdwg = new Redmine.Net.Api.Types.IdentifiableName() { Id = 41, Name = "aftdwg" };
+        public static Redmine.Net.Api.Types.IdentifiableName anpassungen_erweiterungen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 142, Name = "anpassungen_erweiterungen" };
+        public static Redmine.Net.Api.Types.IdentifiableName anpassungen_erweiterungen2 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 143, Name = "anpassungen_erweiterungen2" };
         public static Redmine.Net.Api.Types.IdentifiableName aperture = new Redmine.Net.Api.Types.IdentifiableName() { Id = 25, Name = "aperture" };
-        public static Redmine.Net.Api.Types.IdentifiableName artsearch = new Redmine.Net.Api.Types.IdentifiableName() { Id = 43, Name = "artsearch" };
-        public static Redmine.Net.Api.Types.IdentifiableName attachobjects = new Redmine.Net.Api.Types.IdentifiableName() { Id = 44, Name = "attachobjects" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic = new Redmine.Net.Api.Types.IdentifiableName() { Id = 1, Name = "basic" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_bkb = new Redmine.Net.Api.Types.IdentifiableName() { Id = 69, Name = "basic-bkb" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_julius_baer = new Redmine.Net.Api.Types.IdentifiableName() { Id = 15, Name = "basic-julius-baer" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_post = new Redmine.Net.Api.Types.IdentifiableName() { Id = 7, Name = "basic-post" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_raiffeisen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 20, Name = "basic-raiffeisen" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_rsi = new Redmine.Net.Api.Types.IdentifiableName() { Id = 17, Name = "basic-rsi" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_sauter = new Redmine.Net.Api.Types.IdentifiableName() { Id = 33, Name = "basic-sauter" };
         public static Redmine.Net.Api.Types.IdentifiableName basic_schnittstellen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 57, Name = "basic-schnittstellen" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_snb = new Redmine.Net.Api.Types.IdentifiableName() { Id = 10, Name = "basic-snb" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_sursee_mit_reinigung = new Redmine.Net.Api.Types.IdentifiableName() { Id = 19, Name = "basic-sursee-mit-reinigung" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_swisscom = new Redmine.Net.Api.Types.IdentifiableName() { Id = 9, Name = "basic-swisscom" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_swisslife = new Redmine.Net.Api.Types.IdentifiableName() { Id = 16, Name = "basic-swisslife" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_swissre = new Redmine.Net.Api.Types.IdentifiableName() { Id = 3, Name = "basic-swissre" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_v3 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 5, Name = "basic-v3" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_v3_v4_reports = new Redmine.Net.Api.Types.IdentifiableName() { Id = 24, Name = "basic-v3-v4-reports" };
+        public static Redmine.Net.Api.Types.IdentifiableName basic_v3 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 135, Name = "basic-v3" };
         public static Redmine.Net.Api.Types.IdentifiableName basic_v4 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 6, Name = "basic-v4" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_wincasa = new Redmine.Net.Api.Types.IdentifiableName() { Id = 8, Name = "basic-wincasa" };
-        public static Redmine.Net.Api.Types.IdentifiableName basic_zuerich = new Redmine.Net.Api.Types.IdentifiableName() { Id = 4, Name = "basic-zuerich" };
-        public static Redmine.Net.Api.Types.IdentifiableName bkb_reports = new Redmine.Net.Api.Types.IdentifiableName() { Id = 54, Name = "bkb-reports" };
+        public static Redmine.Net.Api.Types.IdentifiableName basisv_v35 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 136, Name = "basisv-v35" };
+        public static Redmine.Net.Api.Types.IdentifiableName bkb = new Redmine.Net.Api.Types.IdentifiableName() { Id = 109, Name = "bkb" };
+        public static Redmine.Net.Api.Types.IdentifiableName campus_sursee = new Redmine.Net.Api.Types.IdentifiableName() { Id = 19, Name = "campus-sursee" };
+        public static Redmine.Net.Api.Types.IdentifiableName change_request_170724 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 149, Name = "change-request-170724" };
+        public static Redmine.Net.Api.Types.IdentifiableName change_request_170824 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 148, Name = "change-request-170824" };
+        public static Redmine.Net.Api.Types.IdentifiableName change_request_2018 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 161, Name = "change-request-2018" };
+        public static Redmine.Net.Api.Types.IdentifiableName change_request_ab_sept_2017 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 154, Name = "change-request-ab-sept-2017" };
         public static Redmine.Net.Api.Types.IdentifiableName cor_crm = new Redmine.Net.Api.Types.IdentifiableName() { Id = 11, Name = "cor-crm" };
-        public static Redmine.Net.Api.Types.IdentifiableName cor_demo_v4 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 13, Name = "cor-demo-v4" };
+        public static Redmine.Net.Api.Types.IdentifiableName cor_demo = new Redmine.Net.Api.Types.IdentifiableName() { Id = 132, Name = "cor-demo" };
         public static Redmine.Net.Api.Types.IdentifiableName cor_intern = new Redmine.Net.Api.Types.IdentifiableName() { Id = 63, Name = "cor-intern" };
         public static Redmine.Net.Api.Types.IdentifiableName dms = new Redmine.Net.Api.Types.IdentifiableName() { Id = 28, Name = "dms" };
-        public static Redmine.Net.Api.Types.IdentifiableName doubleclick = new Redmine.Net.Api.Types.IdentifiableName() { Id = 40, Name = "doubleclick" };
-        public static Redmine.Net.Api.Types.IdentifiableName doubleclick_basic_v3 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 49, Name = "doubleclick-basic-v3" };
-        public static Redmine.Net.Api.Types.IdentifiableName doubleclick_basic_v4 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 50, Name = "doubleclick-basic-v4" };
-        public static Redmine.Net.Api.Types.IdentifiableName doubleclick_sauterfm = new Redmine.Net.Api.Types.IdentifiableName() { Id = 53, Name = "doubleclick-sauterfm" };
-        public static Redmine.Net.Api.Types.IdentifiableName doubleclick_stadt_zuerich = new Redmine.Net.Api.Types.IdentifiableName() { Id = 52, Name = "doubleclick-stadt-zuerich" };
-        public static Redmine.Net.Api.Types.IdentifiableName doubleclick_swissre = new Redmine.Net.Api.Types.IdentifiableName() { Id = 51, Name = "doubleclick-swissre" };
-        public static Redmine.Net.Api.Types.IdentifiableName fms = new Redmine.Net.Api.Types.IdentifiableName() { Id = 34, Name = "fms" };
-        public static Redmine.Net.Api.Types.IdentifiableName fms_snb = new Redmine.Net.Api.Types.IdentifiableName() { Id = 70, Name = "fms-snb" };
-        public static Redmine.Net.Api.Types.IdentifiableName fms_stadt_zuerich = new Redmine.Net.Api.Types.IdentifiableName() { Id = 56, Name = "fms-stadt-zuerich" };
-        public static Redmine.Net.Api.Types.IdentifiableName fms_swissre = new Redmine.Net.Api.Types.IdentifiableName() { Id = 35, Name = "fms-swissre" };
-        public static Redmine.Net.Api.Types.IdentifiableName fms_v3 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 36, Name = "fms-v3" };
-        public static Redmine.Net.Api.Types.IdentifiableName fms_v4 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 37, Name = "fms-v4" };
-        public static Redmine.Net.Api.Types.IdentifiableName julius_baer_arbeitsplatzbelegungen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 60, Name = "julius-baer-arbeitsplatzbelegungen" };
-        public static Redmine.Net.Api.Types.IdentifiableName ldap = new Redmine.Net.Api.Types.IdentifiableName() { Id = 58, Name = "ldap" };
+        public static Redmine.Net.Api.Types.IdentifiableName formulare = new Redmine.Net.Api.Types.IdentifiableName() { Id = 1, Name = "formulare" };
+        public static Redmine.Net.Api.Types.IdentifiableName helevtia_basel = new Redmine.Net.Api.Types.IdentifiableName() { Id = 140, Name = "helevtia-basel" };
+        public static Redmine.Net.Api.Types.IdentifiableName helvetia = new Redmine.Net.Api.Types.IdentifiableName() { Id = 155, Name = "helvetia" };
+        public static Redmine.Net.Api.Types.IdentifiableName interne_prozesse = new Redmine.Net.Api.Types.IdentifiableName() { Id = 78, Name = "interne-prozesse" };
+        public static Redmine.Net.Api.Types.IdentifiableName julius_baer = new Redmine.Net.Api.Types.IdentifiableName() { Id = 110, Name = "julius-baer" };
+        public static Redmine.Net.Api.Types.IdentifiableName kundenevent = new Redmine.Net.Api.Types.IdentifiableName() { Id = 73, Name = "kundenevent" };
+        public static Redmine.Net.Api.Types.IdentifiableName kundenprojekte = new Redmine.Net.Api.Types.IdentifiableName() { Id = 99, Name = "kundenprojekte" };
         public static Redmine.Net.Api.Types.IdentifiableName ldap_service = new Redmine.Net.Api.Types.IdentifiableName() { Id = 27, Name = "ldap-service" };
-        public static Redmine.Net.Api.Types.IdentifiableName ldap_service_bkb = new Redmine.Net.Api.Types.IdentifiableName() { Id = 31, Name = "ldap-service-bkb" };
-        public static Redmine.Net.Api.Types.IdentifiableName ldap_service_julius_baer = new Redmine.Net.Api.Types.IdentifiableName() { Id = 30, Name = "ldap-service-julius-baer" };
         public static Redmine.Net.Api.Types.IdentifiableName ldap_service_sursee = new Redmine.Net.Api.Types.IdentifiableName() { Id = 32, Name = "ldap-service-sursee" };
         public static Redmine.Net.Api.Types.IdentifiableName ldap_web_verwaltung = new Redmine.Net.Api.Types.IdentifiableName() { Id = 62, Name = "ldap-web-verwaltung" };
-        public static Redmine.Net.Api.Types.IdentifiableName post_berichte = new Redmine.Net.Api.Types.IdentifiableName() { Id = 61, Name = "post-berichte" };
-        public static Redmine.Net.Api.Types.IdentifiableName raiffeisen_reports = new Redmine.Net.Api.Types.IdentifiableName() { Id = 21, Name = "raiffeisen-reports" };
-        public static Redmine.Net.Api.Types.IdentifiableName raumplaner = new Redmine.Net.Api.Types.IdentifiableName() { Id = 29, Name = "raumplaner" };
-        public static Redmine.Net.Api.Types.IdentifiableName raum_reservationen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 46, Name = "raum-reservationen" };
+        public static Redmine.Net.Api.Types.IdentifiableName lidl = new Redmine.Net.Api.Types.IdentifiableName() { Id = 138, Name = "lidl" };
+        public static Redmine.Net.Api.Types.IdentifiableName marketing = new Redmine.Net.Api.Types.IdentifiableName() { Id = 72, Name = "marketing" };
+        public static Redmine.Net.Api.Types.IdentifiableName migration_v3_auf_v4 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 88, Name = "migration-v3-auf-v4" };
+        public static Redmine.Net.Api.Types.IdentifiableName modul_dokumanagement = new Redmine.Net.Api.Types.IdentifiableName() { Id = 90, Name = "modul-dokumanagement" };
+        public static Redmine.Net.Api.Types.IdentifiableName modul_servicedesk = new Redmine.Net.Api.Types.IdentifiableName() { Id = 89, Name = "modul-servicedesk" };
+        public static Redmine.Net.Api.Types.IdentifiableName outlook_als_adress_db = new Redmine.Net.Api.Types.IdentifiableName() { Id = 79, Name = "outlook-als-adress-db" };
+        public static Redmine.Net.Api.Types.IdentifiableName pendenzen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 160, Name = "pendenzen" };
+        public static Redmine.Net.Api.Types.IdentifiableName phonak = new Redmine.Net.Api.Types.IdentifiableName() { Id = 144, Name = "phonak" };
+        public static Redmine.Net.Api.Types.IdentifiableName post = new Redmine.Net.Api.Types.IdentifiableName() { Id = 108, Name = "post" };
+        public static Redmine.Net.Api.Types.IdentifiableName raiffeisen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 111, Name = "raiffeisen" };
         public static Redmine.Net.Api.Types.IdentifiableName redmine_tool = new Redmine.Net.Api.Types.IdentifiableName() { Id = 64, Name = "redmine-tool" };
         public static Redmine.Net.Api.Types.IdentifiableName reports = new Redmine.Net.Api.Types.IdentifiableName() { Id = 2, Name = "reports" };
-        public static Redmine.Net.Api.Types.IdentifiableName reports_stadt_zuerich = new Redmine.Net.Api.Types.IdentifiableName() { Id = 55, Name = "reports-stadt-zuerich" };
+        public static Redmine.Net.Api.Types.IdentifiableName rockwell = new Redmine.Net.Api.Types.IdentifiableName() { Id = 141, Name = "rockwell" };
+        public static Redmine.Net.Api.Types.IdentifiableName rsi = new Redmine.Net.Api.Types.IdentifiableName() { Id = 103, Name = "rsi" };
+        public static Redmine.Net.Api.Types.IdentifiableName sauter = new Redmine.Net.Api.Types.IdentifiableName() { Id = 100, Name = "sauter" };
         public static Redmine.Net.Api.Types.IdentifiableName schnittstellen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 45, Name = "schnittstellen" };
-        public static Redmine.Net.Api.Types.IdentifiableName skripte = new Redmine.Net.Api.Types.IdentifiableName() { Id = 39, Name = "skripte" };
-        public static Redmine.Net.Api.Types.IdentifiableName snb_reports = new Redmine.Net.Api.Types.IdentifiableName() { Id = 23, Name = "snb-reports" };
-        public static Redmine.Net.Api.Types.IdentifiableName swisslife_odis = new Redmine.Net.Api.Types.IdentifiableName() { Id = 59, Name = "swisslife-odis" };
-        public static Redmine.Net.Api.Types.IdentifiableName swissre = new Redmine.Net.Api.Types.IdentifiableName() { Id = 42, Name = "swissre" };
-        public static Redmine.Net.Api.Types.IdentifiableName swissre_reports = new Redmine.Net.Api.Types.IdentifiableName() { Id = 22, Name = "swissre-reports" };
-        public static Redmine.Net.Api.Types.IdentifiableName swissre_room_reservation_export = new Redmine.Net.Api.Types.IdentifiableName() { Id = 47, Name = "swissre-room-reservation-export" };
-        public static Redmine.Net.Api.Types.IdentifiableName test = new Redmine.Net.Api.Types.IdentifiableName() { Id = 71, Name = "test" };
+        public static Redmine.Net.Api.Types.IdentifiableName schule_erlen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 146, Name = "schule-erlen" };
+        public static Redmine.Net.Api.Types.IdentifiableName snb = new Redmine.Net.Api.Types.IdentifiableName() { Id = 112, Name = "snb" };
+        public static Redmine.Net.Api.Types.IdentifiableName srf = new Redmine.Net.Api.Types.IdentifiableName() { Id = 105, Name = "srf" };
+        public static Redmine.Net.Api.Types.IdentifiableName srg = new Redmine.Net.Api.Types.IdentifiableName() { Id = 104, Name = "srg" };
+        public static Redmine.Net.Api.Types.IdentifiableName stadtzuerich = new Redmine.Net.Api.Types.IdentifiableName() { Id = 114, Name = "stadtzuerich" };
+        public static Redmine.Net.Api.Types.IdentifiableName suisse_public = new Redmine.Net.Api.Types.IdentifiableName() { Id = 83, Name = "suisse-public" };
+        public static Redmine.Net.Api.Types.IdentifiableName swisscom = new Redmine.Net.Api.Types.IdentifiableName() { Id = 106, Name = "swisscom" };
+        public static Redmine.Net.Api.Types.IdentifiableName swisslife = new Redmine.Net.Api.Types.IdentifiableName() { Id = 113, Name = "swisslife" };
+        public static Redmine.Net.Api.Types.IdentifiableName swissre = new Redmine.Net.Api.Types.IdentifiableName() { Id = 101, Name = "swissre" };
+        public static Redmine.Net.Api.Types.IdentifiableName testprojekt = new Redmine.Net.Api.Types.IdentifiableName() { Id = 137, Name = "testprojekt" };
+        public static Redmine.Net.Api.Types.IdentifiableName untertest = new Redmine.Net.Api.Types.IdentifiableName() { Id = 93, Name = "untertest" };
+        public static Redmine.Net.Api.Types.IdentifiableName update_2017_05_31 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 145, Name = "update-2017-05-31" };
+        public static Redmine.Net.Api.Types.IdentifiableName update_2017_09_22 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 147, Name = "update-2017-09-22" };
+        public static Redmine.Net.Api.Types.IdentifiableName update_2017_09_27 = new Redmine.Net.Api.Types.IdentifiableName() { Id = 153, Name = "update-2017-09-27" };
+        public static Redmine.Net.Api.Types.IdentifiableName verkauf = new Redmine.Net.Api.Types.IdentifiableName() { Id = 139, Name = "verkauf" };
+        public static Redmine.Net.Api.Types.IdentifiableName verkaufsfoerdermittel = new Redmine.Net.Api.Types.IdentifiableName() { Id = 81, Name = "verkaufsfoerdermittel" };
         public static Redmine.Net.Api.Types.IdentifiableName vws_portal = new Redmine.Net.Api.Types.IdentifiableName() { Id = 26, Name = "vws-portal" };
+        public static Redmine.Net.Api.Types.IdentifiableName webseite_seo = new Redmine.Net.Api.Types.IdentifiableName() { Id = 74, Name = "webseite-seo" };
+        public static Redmine.Net.Api.Types.IdentifiableName wincasa = new Redmine.Net.Api.Types.IdentifiableName() { Id = 107, Name = "wincasa" };
     }
 
 
@@ -159,7 +159,15 @@ namespace RedmineClient
         public static Redmine.Net.Api.Types.IdentifiableName fehlerhaft = new Redmine.Net.Api.Types.IdentifiableName() { Id = 10 };
         public static Redmine.Net.Api.Types.IdentifiableName abgelehnt = new Redmine.Net.Api.Types.IdentifiableName() { Id = 11 };
         public static Redmine.Net.Api.Types.IdentifiableName zurückgezogen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 6 };
+        public static Redmine.Net.Api.Types.IdentifiableName unbestimmt_aufgeschoben = new Redmine.Net.Api.Types.IdentifiableName() { Id = 12 };
+        public static Redmine.Net.Api.Types.IdentifiableName testen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 14 };
+        public static Redmine.Net.Api.Types.IdentifiableName erledigt = new Redmine.Net.Api.Types.IdentifiableName() { Id = 13 };
         public static Redmine.Net.Api.Types.IdentifiableName abgeschlossen = new Redmine.Net.Api.Types.IdentifiableName() { Id = 5 };
+
+        // Zusätzliche:
+        // unbestimmt_aufgeschoben
+        // testen
+        // erledigt
     } // End Class IssueStatus 
 
 
@@ -174,20 +182,16 @@ namespace RedmineClient
     //FROM trackers
     //WHERE (1=1) 
     //ORDER BY position 
-    public sealed class Trackersssssssssssss
-    {
-        public static Redmine.Net.Api.Types.IdentifiableName Fehler = new Redmine.Net.Api.Types.IdentifiableName() { Id = 1 };
-        public static Redmine.Net.Api.Types.IdentifiableName Feature = new Redmine.Net.Api.Types.IdentifiableName() { Id = 2 };
-        public static Redmine.Net.Api.Types.IdentifiableName Unterstützung = new Redmine.Net.Api.Types.IdentifiableName() { Id = 3 };
-    }
-
-
+    
     public sealed class Trackers
     {
-        public static Redmine.Net.Api.Types.IdentifiableName Supportanfrage = new Redmine.Net.Api.Types.IdentifiableName() { Id = 3 };
+        public static Redmine.Net.Api.Types.IdentifiableName Testtracker = new Redmine.Net.Api.Types.IdentifiableName() { Id = 7 };
+        public static Redmine.Net.Api.Types.IdentifiableName Kundenanfrage = new Redmine.Net.Api.Types.IdentifiableName() { Id = 3 };
         public static Redmine.Net.Api.Types.IdentifiableName Anpassung = new Redmine.Net.Api.Types.IdentifiableName() { Id = 2 };
         public static Redmine.Net.Api.Types.IdentifiableName Fehler = new Redmine.Net.Api.Types.IdentifiableName() { Id = 1 };
-        public static Redmine.Net.Api.Types.IdentifiableName Handling = new Redmine.Net.Api.Types.IdentifiableName() { Id = 4 };
+        public static Redmine.Net.Api.Types.IdentifiableName Bedienung = new Redmine.Net.Api.Types.IdentifiableName() { Id = 4 };
+        public static Redmine.Net.Api.Types.IdentifiableName Internes = new Redmine.Net.Api.Types.IdentifiableName() { Id = 5 };
+        public static Redmine.Net.Api.Types.IdentifiableName Änderungswunsch = new Redmine.Net.Api.Types.IdentifiableName() { Id = 6 };
     } // End Class Trackers 
 
 
